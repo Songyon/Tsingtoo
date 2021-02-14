@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo</title>
-    <updated>2021-02-14T14:37:33.607Z</updated>
+    <updated>2021-02-14T15:12:24.332Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -20,8 +20,7 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>我们发现有人恶意利用腾讯QQ风控系统秒封词发送口令红包钓鱼，导致领取红包的账号被恶意举报秒封的情况。</p>
 <!-- more -->
-<p>我们发现有人恶意利用腾讯QQ风控系统秒封词发送口令红包钓鱼，导致领取红包的账号被恶意举报秒封的情况。<br>
-建议大家尽快停用相关自动化插件，以及领取口令红包时留意口令是否为违法违规内容。<br>
+<p>建议大家尽快停用相关自动化插件，以及领取口令红包时留意口令是否为违法违规内容。<br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311420543.jpg" alt="" loading="lazy"><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311426278.jpg" alt="" loading="lazy"></p>
 ]]></content>
@@ -36,8 +35,7 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>我们发现有恶俗人士在QQ空间-共青团中央公众空间的说说评论区进行包括钓鱼、人肉、网暴、真人快打等活动。</p>
 <!-- more -->
-<p>我们发现有恶俗人士在QQ空间-共青团中央公众空间的说说评论区进行包括钓鱼、人肉、网暴、真人快打等活动。<br>
-建议遇见反动言论切勿直接前去对线，直接举报即可。<br>
+<p>建议遇见反动言论切勿直接前去对线，直接举报即可。<br>
 已发现的恶俗人士QQ号：<br>
 3368600735<br>
 434563874<br>
@@ -70,9 +68,14 @@
         <link href="https://songyon.github.io/Tsingtoo/post/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>Tsingtoo 青兔站</p>
+</blockquote>
+]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>Tsingtoo 青兔站</p>
 </blockquote>
+<!-- more -->
 <h2 id="关于本站">关于本站</h2>
 <p>Tsingtoo GitHub Page是一个传播文献的平台和Songyon Jing的声筒。</p>
 <h2 id="博主是谁">博主是谁</h2>
