@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo</title>
-    <updated>2021-02-16T09:20:11.013Z</updated>
+    <updated>2021-02-16T10:05:34.747Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -87,6 +87,15 @@ GitHub：@Songyon<br>
 酷安：@晶漩焰Songyon<br>
 Bilibili：@晶漩焰Songyan<br>
 知乎：@晶漩焰</p>
+<h2 id="打赏">打赏</h2>
+<p>谢谢，支持AliPay、UnionPay、WeChat Pay和QQ Pay<br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1613469586061.jpg" alt="" loading="lazy"><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1613469687266.png" alt="" loading="lazy"><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1613469926285.jpg" alt="" loading="lazy"><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1613469811661.png" alt="" loading="lazy"></p>
+<h2 id="注意">注意</h2>
+<p>网站的Gitalk评论插件需要登录GitHub<br>
+目前Gitalk的评论因为403问题暂时不可用，需要Gitalk和Gridea跟进处理。</p>
 ]]></content>
     </entry>
 </feed>
