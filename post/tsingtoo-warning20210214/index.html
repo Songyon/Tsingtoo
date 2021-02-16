@@ -8,9 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1613315541147">
+<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1613461222035">
 <link rel="stylesheet" href="https://songyon.github.io/Tsingtoo//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -33,7 +39,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://songyon.github.io/Tsingtoo/">
-        <img src="https://songyon.github.io/Tsingtoo//images/avatar.png?v=1613315541147" class="site-logo">
+        <img src="https://songyon.github.io/Tsingtoo//images/avatar.png?v=1613461222035" class="site-logo">
         <h1 class="site-title">Tsingtoo</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -110,6 +116,9 @@
             <h2 class="post-title">Tsingtoo WARNING（2021/02/14）</h2>
             <div class="post-date">2021-02-14</div>
             
+              <div class="feature-container" style="background-image: url('https://songyon.github.io/Tsingtoo//post-images/tsingtoo-warning20210214.png')">
+              </div>
+            
             <div class="post-content" v-pre>
               <p>我们发现有人恶意利用腾讯QQ风控系统秒封词发送口令红包钓鱼，导致领取红包的账号被恶意举报秒封的情况。</p>
 <!-- more -->
@@ -139,6 +148,12 @@
             
 
             
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
 
           </div>
 
@@ -166,6 +181,29 @@ var app = new Vue({
     hljs.initHighlightingOnLoad()
   </script>
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '65ab9764e890e31d4db3',
+        clientSecret: '1d9b9857aea26df3768d4c3897f633dcdc55be55',
+        repo: 'Tsingtoo',
+        owner: 'Songyon',
+        admin: ['Songyon'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
