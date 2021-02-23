@@ -2,14 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo</title>
-    <updated>2021-02-16T10:05:34.747Z</updated>
+    <updated>2021-02-23T17:19:13.494Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
-    <subtitle>青兔站 欢迎加QQ：1198400379 关注青兔最新动态</subtitle>
+    <subtitle>青兔站</subtitle>
     <logo>https://songyon.github.io/Tsingtoo/images/avatar.png</logo>
     <icon>https://songyon.github.io/Tsingtoo/favicon.ico</icon>
     <rights>All rights reserved 2021, Tsingtoo</rights>
+    <entry>
+        <title type="html"><![CDATA[未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台]]></title>
+        <id>https://songyon.github.io/Tsingtoo/post/wei-lai-de-zheng-fa-shi-xin-xi-de-zheng-fa-chang-shi-yong-github-zuo-wei-zuo-pai-yun-dong-de-xin-ping-tai/</id>
+        <link href="https://songyon.github.io/Tsingtoo/post/wei-lai-de-zheng-fa-shi-xin-xi-de-zheng-fa-chang-shi-yong-github-zuo-wei-zuo-pai-yun-dong-de-xin-ping-tai/">
+        </link>
+        <updated>2021-02-23T15:21:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>GitHub是一个面向开源及私有软件项目的托管平台，但除了托管代码，它还可以托管可执行程序、文档等电子内容。所以，我们完全可以尝试借用GitHub来存储文献资料、使用GitHub Issues/Discussions来交流等等等等。。。最重要的是，它免费！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>GitHub是一个面向开源及私有软件项目的托管平台，但除了托管代码，它还可以托管可执行程序、文档等电子内容。所以，我们完全可以尝试借用GitHub来存储文献资料、使用GitHub Issues/Discussions来交流等等等等。。。最重要的是，它免费！</p>
+<!-- more -->
+<h1 id="为什么要用github来搞运动">为什么要用GitHub来搞运动？</h1>
+<p>Gitee和国内社交媒体当然彳亍，只要你的言论记录和传输的文件经得住平台审核。。。<br>
+在知乎上，有一个提问：<a href="https://www.zhihu.com/question/28976652">GitHub 是怎样的一个存在？</a><br>
+<a href="https://www.zhihu.com/question/28976652/answer/322376795">这个回答</a>排在了第一：<br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614097403103.png" alt="" loading="lazy"><br>
+你可以看见，GitHub这种开源社区就是集体社会的一个蓝本试验田！<br>
+作为绝大多数用户是高素质无产者的社区，GitHub是为数不多的用户数量多而精+不需要SCI-Link的网站之一。</p>
+<h2 id="在这里您可以看到">在这里，您可以看到：</h2>
+<h3 id="数不胜数的文献资料">数不胜数的文献资料</h3>
+<p>革命者永远是年轻，亦可赛艇的<a href="https://github.com/FANminiworld/The-Man-Who-Changed-China-The-Life-and-Legacy-of-Jiang-Zemin">《The Man Who Changed CHN》</a><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614095914114.png" alt="" loading="lazy"><br>
+没有调查就没有发言权，亲自睁眼看美国的<a href="https://github.com/zealotCE/AmericaOpposeAmerica">《美国反对美国》</a><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614096027672.png" alt="" loading="lazy"><br>
+探讨客观规律，却反手气死列宁的<a href="https://github.com/Songyon/Economic-Problems-of-Socialism-in-the-USSR-by-Stalin">《苏联社会主义经济问题》</a><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614096262643.png" alt="" loading="lazy"></p>
+<h3 id="开源社区与无产精神">开源社区与无产精神</h3>
+<p>程序员绝大多数都是被资本家剥削的无产者，虽然薪水相对较高，但高素质高学历促进了他们不一样的价值观。请看：<br>
+压不住人民的怒火，打响新时代中国人民反对资本家高时长剥削第一枪的<a href="https://github.com/996icu/996.ICU">996.icu运动</a><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614096608718.png" alt="" loading="lazy"><br>
+反对资本家剥削，互助拥抱集体的<a href="https://github.com/coder2gwy/coder2gwy">程序员考公指南</a><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614096812185.png" alt="" loading="lazy"><br>
+如此理想的左派运动场，已经有左派个人及团体在上面崭露头角了！<br>
+<a href="https://muhua-usnnrqffjcqv.github.io/">燎原报</a>（内容可能偏向极端，此站点不代表 Songyon Jing 的政治立场）<br>
+<a href="https://exchristian.github.io/docs/index.html">《驳基督徒手册》</a><br>
+<a href="https://sociologist.cn/">Yuteng Yan 的个人博客</a><br>
+<a href="https://xianfengnewspaper.github.io/">先锋报网</a>（已停更）<br>
+虽然不多，但是我相信总有一天会星火燎原！</p>
+<h1 id="如何使用github">如何使用GitHub？</h1>
+<h2 id="1注册github账号">1.注册GitHub账号</h2>
+<p>这很简单</p>
+<h3 id="设置用户名和密码">设置用户名和密码</h3>
+<p>这是GitHub主页，右上角有“Sign in”（登录）和“Sign up”（注册）按钮，我们需要点击“Sign up”<br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614099729198.png" alt="" loading="lazy"><br>
+点击“Sign up”后，我们能看见这个表单<br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614099803423.png" alt="" loading="lazy"><br>
+第一栏是用户名，第二栏是电子邮箱地址，第三栏是密码。<br>
+这里需要注意以下几点。<br>
+用户名一栏：每次在你输入用户名之后，系统都会检查你填入的用户名是否已经被注册了。如果被注册了，那么会提示 Username is already taken.此时你需要另换一个用户名进行注册，昵称只能出现字母、数字、短横线，不能使用下划线(_)，开头不能使用短横线(-).也不能使用中文。<br>
+邮箱一栏：要填写合法邮箱，并且是未在 GitHub 注册过的邮箱，否则会弹出错误提示。<br>
+密码一栏：注意密码至少是7个字符。<br>
+填好后，点击“Create account”等待系统验证，这时候你可能会进行人机验证。</p>
+<h3 id="github的幺蛾子">GitHub的幺蛾子</h3>
+<p>接下来会选择账户类型，我们直接免费账户就行，即点击“Unlimmited public repositories for free.”。<br>
+点击Continue继续后，你会被要求填一份问卷，可以直接乱填。</p>
+<h3 id="验证邮箱">验证邮箱</h3>
+<p>你会被要求验证邮箱。<br>
+GitHub 将向您发送一封含有链接的电子邮件。 单击该链接后，您将转到 GitHub 仪表板并看到确认横幅。<br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614100425768.png" alt="" loading="lazy"><br>
+如果不验证邮箱，你会将无法使用GitHub做最基本的操作。<br>
+验证邮箱这一步也可以参照<a href="https://docs.github.com/cn/github/getting-started-with-github/verifying-your-email-address">GitHub Docs</a>。<br>
+好了，大功告成！现在快去登录吧！</p>
+<h2 id="创建仓库">创建仓库</h2>
+<h3 id="仓库是什么">仓库是什么？</h3>
+<p>GitHub的官方描述是：仓库包含项目的所有文件，并存储每个文件的修订记录，您可以在仓库中讨论并管理项目的工作。<br>
+简而言之，存东西的地方。<br>
+（未完待续，2021.02.24 01:18）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tsingtoo WARNING（2021/02/14）]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210214/</id>
