@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo</title>
-    <updated>2021-02-23T17:19:13.494Z</updated>
+    <updated>2021-02-24T11:21:15.818Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -42,7 +42,7 @@
 反对资本家剥削，互助拥抱集体的<a href="https://github.com/coder2gwy/coder2gwy">程序员考公指南</a><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1614096812185.png" alt="" loading="lazy"><br>
 如此理想的左派运动场，已经有左派个人及团体在上面崭露头角了！<br>
-<a href="https://muhua-usnnrqffjcqv.github.io/">燎原报</a>（内容可能偏向极端，此站点不代表 Songyon Jing 的政治立场）<br>
+<a href="https://muhua-usnnrqffjcqv.github.io/">燎原报</a>（<strong>内容可能偏向极端，此站点不代表 Songyon Jing 的政治立场</strong>）<br>
 <a href="https://exchristian.github.io/docs/index.html">《驳基督徒手册》</a><br>
 <a href="https://sociologist.cn/">Yuteng Yan 的个人博客</a><br>
 <a href="https://xianfengnewspaper.github.io/">先锋报网</a>（已停更）<br>
@@ -56,10 +56,10 @@
 点击“Sign up”后，我们能看见这个表单<br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1614099803423.png" alt="" loading="lazy"><br>
 第一栏是用户名，第二栏是电子邮箱地址，第三栏是密码。<br>
-这里需要注意以下几点。<br>
-用户名一栏：每次在你输入用户名之后，系统都会检查你填入的用户名是否已经被注册了。如果被注册了，那么会提示 Username is already taken.此时你需要另换一个用户名进行注册，昵称只能出现字母、数字、短横线，不能使用下划线(_)，开头不能使用短横线(-).也不能使用中文。<br>
-邮箱一栏：要填写合法邮箱，并且是未在 GitHub 注册过的邮箱，否则会弹出错误提示。<br>
-密码一栏：注意密码至少是7个字符。<br>
+这里需要注意以下几点：<br>
+用户名：每次在你输入用户名之后，系统都会检查你填入的用户名是否已经被注册了。如果被注册了，那么会提示 Username is already taken.此时你需要另换一个用户名进行注册，昵称只能出现字母、数字、短横线，不能使用下划线(_)，开头不能使用短横线(-).也不能使用中文。<br>
+邮箱：要填写合法邮箱，并且是未在 GitHub 注册过的邮箱，否则会弹出错误提示。<br>
+密码：注意密码至少是7个字符。<br>
 填好后，点击“Create account”等待系统验证，这时候你可能会进行人机验证。</p>
 <h3 id="github的幺蛾子">GitHub的幺蛾子</h3>
 <p>接下来会选择账户类型，我们直接免费账户就行，即点击“Unlimmited public repositories for free.”。<br>
@@ -70,12 +70,39 @@ GitHub 将向您发送一封含有链接的电子邮件。 单击该链接后，
 <img src="https://songyon.github.io/Tsingtoo//post-images/1614100425768.png" alt="" loading="lazy"><br>
 如果不验证邮箱，你会将无法使用GitHub做最基本的操作。<br>
 验证邮箱这一步也可以参照<a href="https://docs.github.com/cn/github/getting-started-with-github/verifying-your-email-address">GitHub Docs</a>。<br>
-好了，大功告成！现在快去登录吧！</p>
-<h2 id="创建仓库">创建仓库</h2>
+好了，大功告成！现在快去登录吧！<br>
+你的主页将是这样：GitHub.com/你的用户名</p>
+<h2 id="仓库相关">仓库相关</h2>
 <h3 id="仓库是什么">仓库是什么？</h3>
 <p>GitHub的官方描述是：仓库包含项目的所有文件，并存储每个文件的修订记录，您可以在仓库中讨论并管理项目的工作。<br>
-简而言之，存东西的地方。<br>
-（未完待续，2021.02.24 01:18）</p>
+简而言之，存东西的地方。</p>
+<h3 id="创建仓库">创建仓库</h3>
+<p>这里参考<a href="https://docs.github.com/cn/github/getting-started-with-github/create-a-repo">GitHub Docs的教程</a><br>
+<strong>在任何页面的右上角，使用“+”下拉菜单选择 New repository（新建仓库）</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614164243610.png" alt="" loading="lazy"><br>
+<strong>为仓库命名，只能英文。 例如 “hello-world”</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614164322238.png" alt="" loading="lazy"><br>
+<strong>（可选）添加仓库的说明</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614164356906.png" alt="" loading="lazy"><br>
+<strong>选择仓库可见性</strong><br>
+这里选择公开所有人可见就行。<br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614164456738.png" alt="" loading="lazy"><br>
+（可选）<strong>Initialize this repository with a README（使用自述文件初始化此仓库）</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614164474115.png" alt="" loading="lazy"><br>
+<strong>单击 Create repository（创建仓库）</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614164494282.png" alt="" loading="lazy"><br>
+恭喜，您的第一个仓库建好了，仓库主页便是默认分支。</p>
+<h3 id="为仓库上传文件">为仓库上传文件</h3>
+<p>仓库可以用Git工具上传文件，也可以在网页上上传不超过100个文件。<br>
+关于Git工具的介绍，我之后会以GitHub Desktop for Windows为工具专门写一篇使用教程，你也可以去<a href="https://docs.github.com/cn/enterprise-server@3.0/github/getting-started-with-github/github-desktop">GitHub Docs上的教程</a>学习GitHub Desktop。<br>
+<strong>在仓库主页（的一个分支，一般是默认分支）点击“Add file”（添加文件）的“Upload files”（上传文件）</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614165330819.png" alt="" loading="lazy"><br>
+<strong>将文件拖入此框或者点击“choose your files”（选择文件）以选择文件</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614165433027.png" alt="" loading="lazy"><br>
+Commit changes 的第一栏是操作名称，一般系统会自动为你打出，第二栏是说明。<br>
+<strong>点击“Commit changes”以确认上传</strong><br>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1614165626961.png" alt="" loading="lazy"><br>
+（未完待续，2021.2.24）</p>
 ]]></content>
     </entry>
     <entry>
