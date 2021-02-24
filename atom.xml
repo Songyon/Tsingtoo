@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo</title>
-    <updated>2021-02-24T11:21:15.818Z</updated>
+    <updated>2021-02-24T11:47:44.851Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://songyon.github.io/Tsingtoo/images/avatar.png</logo>
     <icon>https://songyon.github.io/Tsingtoo/favicon.ico</icon>
     <rights>All rights reserved 2021, Tsingtoo</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub Desktop 使用教程]]></title>
+        <id>https://songyon.github.io/Tsingtoo/post/github-desktop-shi-yong-jiao-cheng/</id>
+        <link href="https://songyon.github.io/Tsingtoo/post/github-desktop-shi-yong-jiao-cheng/">
+        </link>
+        <updated>2021-02-24T11:46:07.000Z</updated>
+        <content type="html"><![CDATA[<p>待补充</p>
+<!-- more -->]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/wei-lai-de-zheng-fa-shi-xin-xi-de-zheng-fa-chang-shi-yong-github-zuo-wei-zuo-pai-yun-dong-de-xin-ping-tai/</id>
