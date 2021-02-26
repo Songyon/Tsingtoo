@@ -1,141 +1,134 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>关于Tsingtoo | Tsingtoo</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1614332644894">
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    关于Tsingtoo | Tsingtoo
+</title>
+<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1614333572979">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://songyon.github.io/Tsingtoo//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://songyon.github.io/Tsingtoo//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189805347-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
+        gtag('config', 'UA-189805347-1');
+    </script>
+    
+        
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+                    
+                            
+</head>
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189805347-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-189805347-1');
-</script>
-
-
-    <meta name="description" content="
-Tsingtoo 青兔站
-
-
-关于本站
-Tsingtoo GitHub Page是一个传播文献的平台和Songyon Jing的声筒。
-博主是谁
-Songyon Jing
-合作联系
-GitHub：@Songyon
-微博：@晶漩焰
-酷安：@..." />
-    <meta name="keywords" content="" />
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://songyon.github.io/Tsingtoo/">
-        <img src="https://songyon.github.io/Tsingtoo//images/avatar.png?v=1614332644894" class="site-logo">
-        <h1 class="site-title">Tsingtoo</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://songyon.github.io/Tsingtoo/">
+                <img class="avatar" src="https://songyon.github.io/Tsingtoo//images/avatar.png?v=1614333572979" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Tsingtoo
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/post/you-qing-lian-jie" class="menu">
+                                    友情链接
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/post/you-qing-lian-jie" class="site-nav">
-            友情链接
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/Songyon" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-          <a class="social-link" href="https://weibo.com/u/5692585433" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="https://www.zhihu.com/people/songyon" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      青兔站
-    </div>
-    <div class="site-footer">
-      Writed by Songyon Jing | Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://songyon.github.io/Tsingtoo//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">关于Tsingtoo</h2>
-            <div class="post-date">2019-01-25</div>
-            
-              <div class="feature-container" style="background-image: url('https://songyon.github.io/Tsingtoo//post-images/about.png')">
-              </div>
-            
-            <div class="post-content" v-pre>
-              <blockquote>
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            关于Tsingtoo
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2019-01-25</time>
+                            
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://songyon.github.io/Tsingtoo//post-images/about.png')"></div>
+                            
+                                <div class="post-content">
+                                    <blockquote>
 <p>Tsingtoo 青兔站</p>
 </blockquote>
 <!-- more -->
@@ -157,70 +150,109 @@ Bilibili：@晶漩焰Songyan<br>
 <p>网站的Gitalk评论插件需要登录GitHub<br>
 目前Gitalk的评论因为403问题暂时不可用，需要Gitalk和Gridea跟进处理。</p>
 
-            </div>
-            
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">关于本站</a></li>
+<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">博主是谁</a></li>
+<li><a href="#%E5%90%88%E4%BD%9C%E8%81%94%E7%B3%BB">合作联系</a></li>
+<li><a href="#%E6%89%93%E8%B5%8F">打赏</a></li>
+<li><a href="#%E6%B3%A8%E6%84%8F">注意</a></li>
+</ul>
+</li>
+</ul>
 
         </div>
-      </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
+                            
 
-AOS.init();
+                </div>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
 
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Writed by Songyon Jing | Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://songyon.github.io/Tsingtoo//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
 
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    </div>
     <script>
-
-      var gitalk = new Gitalk({
-        clientID: '65ab9764e890e31d4db3',
-        clientSecret: '1d9b9857aea26df3768d4c3897f633dcdc55be55',
-        repo: 'Tsingtoo',
-        owner: 'Songyon',
-        admin: ['Songyon'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
     </script>
-  
+    
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: '65ab9764e890e31d4db3',
+            clientSecret: '1d9b9857aea26df3768d4c3897f633dcdc55be55',
+            repo: 'Tsingtoo',
+            owner: 'Songyon',
+            admin: ['Songyon'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
 
-  
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
 
+                    
+                                
+</body>
 
-
-
-  </body>
 </html>

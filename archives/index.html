@@ -1,207 +1,194 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>文章归档 | Tsingtoo</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1614332644894">
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Tsingtoo
+</title>
+<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1614333572979">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://songyon.github.io/Tsingtoo//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://songyon.github.io/Tsingtoo//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189805347-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
+        gtag('config', 'UA-189805347-1');
+    </script>
+    
+</head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189805347-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-189805347-1');
-</script>
-
-
-    <meta name="description" content="青兔站">
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://songyon.github.io/Tsingtoo/">
-        <img src="https://songyon.github.io/Tsingtoo//images/avatar.png?v=1614332644894" class="site-logo">
-        <h1 class="site-title">Tsingtoo</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-        
-          <a href="https://songyon.github.io/Tsingtoo/post/you-qing-lian-jie" class="site-nav">
-            友情链接
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/Songyon" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-          <a class="social-link" href="https://weibo.com/u/5692585433" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="https://www.zhihu.com/people/songyon" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      青兔站
-    </div>
-    <div class="site-footer">
-      Writed by Songyon Jing | Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://songyon.github.io/Tsingtoo//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
-            
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2021</h2>
-              
-                
-                  <article class="post">
-                    <a href="https://songyon.github.io/Tsingtoo/post/wei-lai-de-zheng-fa-shi-xin-xi-de-zheng-fa-chang-shi-yong-github-zuo-wei-zuo-pai-yun-dong-de-xin-ping-tai/">
-                      <h2 class="post-title">
-                        未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210214/">
-                      <h2 class="post-title">
-                        Tsingtoo WARNING（2021/02/14）
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210122/">
-                      <h2 class="post-title">
-                        Tsingtoo WARNING（2021/01/22）
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-              
-            
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
-              
-                
-              
-                
-              
-                
-              
-                
-                  <article class="post">
-                    <a href="https://songyon.github.io/Tsingtoo/post/about/">
-                      <h2 class="post-title">
-                        关于Tsingtoo
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-            
-          </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
-
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://songyon.github.io/Tsingtoo/">
+                <img class="avatar" src="https://songyon.github.io/Tsingtoo//images/avatar.png?v=1614333572979" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Tsingtoo
+                </h1>
+            </div>
         </div>
-      </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/post/you-qing-lian-jie" class="menu">
+                                    友情链接
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-AOS.init();
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+        });
+    });
 </script>
 
+            
 
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
+    <div class="archives-container main-container">
+        <ul class="timeline">
+            
+                <li>
+                    <h3 class="year">
+                        2021
+                    </h3>
+                    <ul class="year-wrapper">
+                        
+                            
+                                <li>
+                                    <span class="date">2021-02-23</span>
+                                    <a class="title" href="https://songyon.github.io/Tsingtoo/post/wei-lai-de-zheng-fa-shi-xin-xi-de-zheng-fa-chang-shi-yong-github-zuo-wei-zuo-pai-yun-dong-de-xin-ping-tai/">
+                                        <span>未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                            
+                                <li>
+                                    <span class="date">2021-02-14</span>
+                                    <a class="title" href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210214/">
+                                        <span>Tsingtoo WARNING（2021/02/14）</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                            
+                                <li>
+                                    <span class="date">2021-01-22</span>
+                                    <a class="title" href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210122/">
+                                        <span>Tsingtoo WARNING（2021/01/22）</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                            
+                                    
+                    </ul>
 
+                </li>
+                
+                <li>
+                    <h3 class="year">
+                        2019
+                    </h3>
+                    <ul class="year-wrapper">
+                        
+                            
+                                    
+                            
+                                    
+                            
+                                    
+                            
+                                <li>
+                                    <span class="date">2019-01-25</span>
+                                    <a class="title" href="https://songyon.github.io/Tsingtoo/post/about/">
+                                        <span>关于Tsingtoo</span>
+                                    </a>
+                                </li>
+                                
+                                    
+                    </ul>
 
+                </li>
+                
+        </ul>
+    </div>
 
+                
 
+                    <div class="site-footer">
+  Writed by Songyon Jing | Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://songyon.github.io/Tsingtoo//atom.xml" target="_blank">RSS</a>
+</div>
 
-  </body>
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</body>
+
 </html>
