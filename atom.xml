@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo</title>
-    <updated>2021-02-24T11:47:44.851Z</updated>
+    <updated>2021-02-26T09:35:48.306Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -10,15 +10,6 @@
     <logo>https://songyon.github.io/Tsingtoo/images/avatar.png</logo>
     <icon>https://songyon.github.io/Tsingtoo/favicon.ico</icon>
     <rights>All rights reserved 2021, Tsingtoo</rights>
-    <entry>
-        <title type="html"><![CDATA[GitHub Desktop 使用教程]]></title>
-        <id>https://songyon.github.io/Tsingtoo/post/github-desktop-shi-yong-jiao-cheng/</id>
-        <link href="https://songyon.github.io/Tsingtoo/post/github-desktop-shi-yong-jiao-cheng/">
-        </link>
-        <updated>2021-02-24T11:46:07.000Z</updated>
-        <content type="html"><![CDATA[<p>待补充</p>
-<!-- more -->]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/wei-lai-de-zheng-fa-shi-xin-xi-de-zheng-fa-chang-shi-yong-github-zuo-wei-zuo-pai-yun-dong-de-xin-ping-tai/</id>
@@ -103,7 +94,7 @@ GitHub 将向您发送一封含有链接的电子邮件。 单击该链接后，
 恭喜，您的第一个仓库建好了，仓库主页便是默认分支。</p>
 <h3 id="为仓库上传文件">为仓库上传文件</h3>
 <p>仓库可以用Git工具上传文件，也可以在网页上上传不超过100个文件。<br>
-关于Git工具的介绍，我之后会以GitHub Desktop for Windows为工具专门写一篇使用教程，你也可以去<a href="https://docs.github.com/cn/enterprise-server@3.0/github/getting-started-with-github/github-desktop">GitHub Docs上的教程</a>学习GitHub Desktop。<br>
+关于Git工具的介绍，你可以去<a href="https://docs.github.com/cn/enterprise-server@3.0/github/getting-started-with-github/github-desktop">GitHub Docs上的教程</a>学习GitHub Desktop。<br>
 <strong>在仓库主页（的一个分支，一般是默认分支）点击“Add file”（添加文件）的“Upload files”（上传文件）</strong><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1614165330819.png" alt="" loading="lazy"><br>
 <strong>将文件拖入此框或者点击“choose your files”（选择文件）以选择文件</strong><br>
@@ -158,8 +149,6 @@ Commit changes 的第一栏是操作名称，一般系统会自动为你打出�
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311015374.jpg" alt="" loading="lazy"><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311183465.jpg" alt="" loading="lazy"><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311191355.jpg" alt="" loading="lazy"><br>
-<img src="https://songyon.github.io/Tsingtoo//post-images/1613311196885.jpg" alt="" loading="lazy"><br>
-<img src="https://songyon.github.io/Tsingtoo//post-images/1613311204866.jpg" alt="" loading="lazy"><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311225809.jpg" alt="" loading="lazy"><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311232199.jpg" alt="" loading="lazy"><br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613311237395.jpg" alt="" loading="lazy"><br>
@@ -192,11 +181,9 @@ GitHub：@Songyon<br>
 Bilibili：@晶漩焰Songyan<br>
 知乎：@晶漩焰</p>
 <h2 id="打赏">打赏</h2>
-<p>谢谢，支持AliPay、UnionPay、WeChat Pay和QQ Pay<br>
+<p>谢谢，支持AliPay和UnionPay<br>
 <img src="https://songyon.github.io/Tsingtoo//post-images/1613469586061.jpg" alt="" loading="lazy"><br>
-<img src="https://songyon.github.io/Tsingtoo//post-images/1613469687266.png" alt="" loading="lazy"><br>
-<img src="https://songyon.github.io/Tsingtoo//post-images/1613469926285.jpg" alt="" loading="lazy"><br>
-<img src="https://songyon.github.io/Tsingtoo//post-images/1613469811661.png" alt="" loading="lazy"></p>
+<img src="https://songyon.github.io/Tsingtoo//post-images/1613469687266.png" alt="" loading="lazy"></p>
 <h2 id="注意">注意</h2>
 <p>网站的Gitalk评论插件需要登录GitHub<br>
 目前Gitalk的评论因为403问题暂时不可用，需要Gitalk和Gridea跟进处理。</p>
