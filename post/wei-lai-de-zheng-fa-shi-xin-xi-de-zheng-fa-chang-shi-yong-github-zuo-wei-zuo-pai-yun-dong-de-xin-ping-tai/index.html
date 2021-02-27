@@ -1,249 +1,152 @@
 <html>
+
 <head>
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<title>未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台 | Tsingtoo Dev</title>
-
-<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1614433851758">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<title>
+    未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台 | Tsingtoo Dev
+</title>
+<link rel="shortcut icon" href="https://songyon.github.io/Tsingtoo//favicon.ico?v=1614434687914">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://songyon.github.io/Tsingtoo//styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
-<style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-    }
-</style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://songyon.github.io/Tsingtoo//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189805347-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189805347-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    gtag('js', new Date());
-    gtag('config', 'UA-189805347-1');
-</script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+        gtag('config', 'UA-189805347-1');
+    </script>
+    
+        
 </head>
+
 <body>
-<div class="main gt-bg-theme-color-first">
-    <style>
-    /* 导航栏样式 */
-    .navbar {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-    }
-
-    .navbar-brand {
-        display: inline-block;
-        padding-top: 0.3125rem;
-        padding-bottom: 0.3125rem;
-        margin-right: 1rem;
-        font-size: 1.25rem;
-        line-height: inherit;
-        white-space: nowrap;
-    }
-
-    .navbar-brand:hover,
-    .navbar-brand:focus {
-        text-decoration: none;
-    }
-
-    .navbar-nav {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding-left: 0;
-        margin-bottom: 0;
-        list-style: none;
-    }
-
-    .navbar-collapse {
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-
-    .navbar-toggler {
-        padding: 0.25rem 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 0.25rem;
-    }
-
-    .navbar-toggler:hover,
-    .navbar-toggler:focus {
-        text-decoration: none;
-    }
-
-    @media (min-width: 992px) {
-        .navbar-expand-lg {
-            -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-            -ms-flex-pack: start;
-            justify-content: flex-start;
-        }
-
-        .navbar-expand-lg .navbar-nav {
-            -ms-flex-direction: row;
-            flex-direction: row;
-        }
-
-        .navbar-expand-lg .navbar-collapse {
-            display: -ms-flexbox !important;
-            display: flex !important;
-            -ms-flex-preferred-size: auto;
-            flex-basis: auto;
-        }
-
-        .navbar-expand-lg .navbar-toggler {
-            display: none;
-        }
-    }
-
-    @media (max-width: 991px) {
-        #navbarSupportedContent {
-            display: none;
-        }
-    }
-</style>
-<nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            Tsingtoo Dev
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://songyon.github.io/Tsingtoo/">
+                <img class="avatar" src="https://songyon.github.io/Tsingtoo//images/avatar.png?v=1614434687914" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    Tsingtoo Dev
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://songyon.github.io/Tsingtoo/post/you-qing-lian-jie" class="menu">
+                                    友情链接
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
         </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-            <div class="nav-item">
-                
-                <a href="https://songyon.github.io/Tsingtoo/" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://songyon.github.io/Tsingtoo/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://songyon.github.io/Tsingtoo/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://songyon.github.io/Tsingtoo/post/you-qing-lian-jie" class="menu gt-a-link">
-                    友情链接
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1614433851758"
-                action="/search/index.html">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
+</div>
+
 <script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = function () {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
 </script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2021-02-23 ·
-                    </time>
-                    
-                        <a href="https://songyon.github.io/Tsingtoo/tag/rGZXMZXiQ/" class="post-tags">
-                            # GitHub
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            未来的政法是信息的政法——尝试用GitHub作为左派运动的新平台
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2021-02-23</time>
+                            
+                                <a href="https://songyon.github.io/Tsingtoo/tag/rGZXMZXiQ/" class="post-tag i-tag
+                            i-tag-other_2">
+                            #GitHub
                         </a>
-                    
-                        <a href="https://songyon.github.io/Tsingtoo/tag/G6MBNi4vep/" class="post-tags">
-                            # 教程
+                                
+                                <a href="https://songyon.github.io/Tsingtoo/tag/G6MBNi4vep/" class="post-tag i-tag
+                            i-tag-success">
+                            #教程
                         </a>
-                    
-                        <a href="https://songyon.github.io/Tsingtoo/tag/MjccQD4Tf4/" class="post-tags">
-                            # 左派
+                                
+                                <a href="https://songyon.github.io/Tsingtoo/tag/MjccQD4Tf4/" class="post-tag i-tag
+                            i-tag-warning">
+                            #左派
                         </a>
-                    
-                        <a href="https://songyon.github.io/Tsingtoo/tag/KNUEH1bWGt/" class="post-tags">
-                            # 信息
+                                
+                                <a href="https://songyon.github.io/Tsingtoo/tag/KNUEH1bWGt/" class="post-tag i-tag
+                            i-tag-other_4">
+                            #信息
                         </a>
-                    
-                        <a href="https://songyon.github.io/Tsingtoo/tag/5q4KIaF_SG/" class="post-tags">
-                            # 科技
+                                
+                                <a href="https://songyon.github.io/Tsingtoo/tag/5q4KIaF_SG/" class="post-tag i-tag
+                            i-tag-">
+                            #科技
                         </a>
-                    
-                </div>
-                <div class="post-content">
-                    <p>GitHub是一个面向开源及私有软件项目的托管平台，但除了托管代码，它还可以托管可执行程序、文档等电子内容。所以，我们完全可以尝试借用GitHub来存储文献资料、使用GitHub Issues/Discussions来交流等等等等。。。最重要的是，它免费！</p>
+                                
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://songyon.github.io/Tsingtoo//post-images/wei-lai-de-zheng-fa-shi-xin-xi-de-zheng-fa-chang-shi-yong-github-zuo-wei-zuo-pai-yun-dong-de-xin-ping-tai.png')"></div>
+                            
+                                <div class="post-content">
+                                    <p>GitHub是一个面向开源及私有软件项目的托管平台，但除了托管代码，它还可以托管可执行程序、文档等电子内容。所以，我们完全可以尝试借用GitHub来存储文献资料、使用GitHub Issues/Discussions来交流等等等等。。。最重要的是，它免费！</p>
 <!-- more -->
 <h1 id="为什么要用github来搞运动">为什么要用GitHub来搞运动？</h1>
 <p>Gitee和国内社交媒体当然彳亍，只要你的言论记录和传输的文件经得住平台审核。。。<br>
@@ -329,86 +232,135 @@ Commit changes 的第一栏是操作名称，一般系统会自动为你打出�
 <img src="https://songyon.github.io/Tsingtoo//post-images/1614165626961.png" alt="" loading="lazy"><br>
 （未完待续，2021.2.24）</p>
 
+                                    <!-- 来必力City版安装代码 -->
+                                    <div id="lv-container" data-id="city" data-uid="MTAyMC81MjgzMy8yOTMxMQ==">
+                                    	<script type="text/javascript">
+                                       (function(d, s) {
+                                           var j, e = d.getElementsByTagName(s)[0];
+
+                                           if (typeof LivereTower === 'function') { return; }
+
+                                           j = d.createElement(s);
+                                           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                                           j.async = true;
+
+                                           e.parentNode.insertBefore(j, e);
+                                       })(document, 'script');
+                                    	</script>
+                                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                                    </div>
+                                    <!-- City版安装代码已完成 -->
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210214/">
+                                <h3 class="post-title">
+                                    Tsingtoo WARNING（2021/02/14）
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
                 </div>
-                <!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC81MjgzMy8yOTMxMQ==">
-    <script type="text/javascript">
-       (function(d, s) {
-           var j, e = d.getElementsByTagName(s)[0];
-    
-           if (typeof LivereTower === 'function') { return; }
-    
-           j = d.createElement(s);
-           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-           j.async = true;
-    
-           e.parentNode.insertBefore(j, e);
-       })(document, 'script');
-    </script>
-    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-    </div>
-    <!-- City版安装代码已完成 -->
-            </article>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%94%A8github%E6%9D%A5%E6%90%9E%E8%BF%90%E5%8A%A8">为什么要用GitHub来搞运动？</a>
+<ul>
+<li><a href="#%E5%9C%A8%E8%BF%99%E9%87%8C%E6%82%A8%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0">在这里，您可以看到：</a>
+<ul>
+<li><a href="#%E6%95%B0%E4%B8%8D%E8%83%9C%E6%95%B0%E7%9A%84%E6%96%87%E7%8C%AE%E8%B5%84%E6%96%99">数不胜数的文献资料</a></li>
+<li><a href="#%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E4%B8%8E%E6%97%A0%E4%BA%A7%E7%B2%BE%E7%A5%9E">开源社区与无产精神</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github">如何使用GitHub？</a>
+<ul>
+<li><a href="#1%E6%B3%A8%E5%86%8Cgithub%E8%B4%A6%E5%8F%B7">1.注册GitHub账号</a>
+<ul>
+<li><a href="#%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81">设置用户名和密码</a></li>
+<li><a href="#github%E7%9A%84%E5%B9%BA%E8%9B%BE%E5%AD%90">GitHub的幺蛾子</a></li>
+<li><a href="#%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1">验证邮箱</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BB%93%E5%BA%93%E7%9B%B8%E5%85%B3">仓库相关</a>
+<ul>
+<li><a href="#%E4%BB%93%E5%BA%93%E6%98%AF%E4%BB%80%E4%B9%88">仓库是什么？</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93">创建仓库</a></li>
+<li><a href="#%E4%B8%BA%E4%BB%93%E5%BA%93%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6">为仓库上传文件</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                            
 
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210214/" class="post-title gt-a-link">
-                    Tsingtoo WARNING（2021/02/14）
-                </a>
+                </div>
+
+
+
+
             </div>
-        
 
-        
 
-        
-
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">青兔站</div>
-    <div class="social-container">
-        
-            
-                <a href="https://github.com/Songyon" target="_blank">
-                    <i class="fab fa-github gt-c-content-color-first"></i>
-                </a>
-            
-        
-            
-        
-            
-                <a href="https://weibo.com/u/5692585433" target="_blank">
-                    <i class="fab fa-weibo gt-c-content-color-first"></i>
-                </a>
-            
-        
-            
-                <a href="https://www.zhihu.com/people/songyon" target="_blank">
-                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
-                </a>
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        Writed by Songyon Jing
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://songyon.github.io/Tsingtoo//atom.xml" target="_blank">RSS</a></a>
-    </div>
+            <div class="site-footer">
+  Writed by Songyon Jing | 
+  <a class="rss" href="https://songyon.github.io/Tsingtoo//atom.xml" target="_blank">RSS</a>
 </div>
 
 <script>
   hljs.initHighlightingOnLoad()
 </script>
 
+
     </div>
-</div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
 </body>
+
 </html>
