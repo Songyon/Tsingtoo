@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo Dev</title>
-    <updated>2021-03-07T15:41:14.175Z</updated>
+    <updated>2021-03-08T00:47:55.464Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://songyon.github.io/Tsingtoo/images/avatar.png</logo>
     <icon>https://songyon.github.io/Tsingtoo/favicon.ico</icon>
     <rights>All rights reserved 2021, Tsingtoo Dev</rights>
+    <entry>
+        <title type="html"><![CDATA[Tsingtoo WARNING（2021/03/08）]]></title>
+        <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210308/</id>
+        <link href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210308/">
+        </link>
+        <updated>2021-03-08T00:42:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>我们发现有外卖/快递工作者将于最近几天举行集体罢工（最近几天是<strong>两会期间</strong>）。<br>
+我们支持劳工斗争争取自己的合法权益，但也请注意自己的人身财产安全。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我们发现有外卖/快递工作者将于最近几天举行集体罢工（最近几天是<strong>两会期间</strong>）。<br>
+我们支持劳工斗争争取自己的合法权益，但也请注意自己的人身财产安全。</p>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[胡锡进支持延迟退休的理由错在哪里？ ]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/hu-xi-jin-zhi-chi-yan-chi-tui-xiu-de-li-you-cuo-zai-na-li/</id>
