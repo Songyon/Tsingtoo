@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo Dev</title>
-    <updated>2021-03-09T05:54:35.127Z</updated>
+    <updated>2021-03-09T05:57:09.535Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://songyon.github.io/Tsingtoo/favicon.ico</icon>
     <rights>All rights reserved 2021, Tsingtoo Dev</rights>
     <entry>
-        <title type="html"><![CDATA[Tsingtoo WARNING（2021/03/09）]]></title>
+        <title type="html"><![CDATA[Tsingtoo WARNING （2021/03/09）]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210309/</id>
         <link href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210309/">
         </link>
@@ -57,7 +57,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tsingtoo WARNING（2021/03/08）]]></title>
+        <title type="html"><![CDATA[Tsingtoo WARNING （2021/03/08）]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210308/</id>
         <link href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210308/">
         </link>
@@ -457,7 +457,7 @@ Commit changes 的第一栏是操作名称，一般系统会自动为你打出�
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tsingtoo WARNING（2021/02/14）]]></title>
+        <title type="html"><![CDATA[Tsingtoo WARNING （2021/02/14）]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210214/</id>
         <link href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210214/">
         </link>
@@ -472,7 +472,7 @@ Commit changes 的第一栏是操作名称，一般系统会自动为你打出�
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tsingtoo WARNING（2021/01/22）]]></title>
+        <title type="html"><![CDATA[Tsingtoo WARNING （2021/01/22）]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210122/</id>
         <link href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210122/">
         </link>
