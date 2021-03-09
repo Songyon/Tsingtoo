@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://songyon.github.io/Tsingtoo/</id>
     <title>Tsingtoo Dev</title>
-    <updated>2021-03-08T01:21:26.268Z</updated>
+    <updated>2021-03-09T05:51:53.165Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://songyon.github.io/Tsingtoo/"/>
     <link rel="self" href="https://songyon.github.io/Tsingtoo/atom.xml"/>
@@ -11,17 +11,64 @@
     <icon>https://songyon.github.io/Tsingtoo/favicon.ico</icon>
     <rights>All rights reserved 2021, Tsingtoo Dev</rights>
     <entry>
+        <title type="html"><![CDATA[Tsingtoo WARNING（2021/03/09）]]></title>
+        <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210309/</id>
+        <link href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210309/">
+        </link>
+        <updated>2021-03-09T05:40:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>根据蓝点网于2021年3月8日14:50:06发布的文章<a href="https://www.landiannews.com/archives/86055.html">《微信免费清粉软件靠什么赚钱？原来是窃取用户微信群二维码卖给犯罪团伙》</a>，有犯罪团伙打着卖“微信清粉软件为幌子出售微信用户加过的群的二维码。</p>
+<p>虽然蓝点网文章中指出的犯罪行为仅为传小广告，但我们认为犯罪团伙可以批量扒取群成员的信息卖给非法”社工库“以获利。请对此类软件保持警惕。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>根据蓝点网于2021年3月8日14:50:06发布的文章<a href="https://www.landiannews.com/archives/86055.html">《微信免费清粉软件靠什么赚钱？原来是窃取用户微信群二维码卖给犯罪团伙》</a>，有犯罪团伙打着卖“微信清粉软件为幌子出售微信用户加过的群的二维码。</p>
+<p>虽然蓝点网文章中指出的犯罪行为仅为传小广告，但我们认为犯罪团伙可以批量扒取群成员的信息卖给非法”社工库“以获利。请对此类软件保持警惕。</p>
+<!-- more -->
+<blockquote>
+<p>以下内容转载自蓝点网，蓝点网已允许转载。</p>
+</blockquote>
+<p>明明没有邀请过好友但微信群却被陌生人添加，陌生人加群后还疯狂刷广告尤其是各类违法的黄赌毒类推广链接。</p>
+<p>此前部分社区乃至安全社区都对上述情况进行讨论过，部分网友认为微信群链接规则可能被破解导致陌生人加群。</p>
+<p>然而这种猜测本身没有证据，现在南通法院的判决其实可以否认这种猜测，因为黑产靠的并不是破解微信群链接。</p>
+<blockquote>
+<p>免费清粉软件背后的玄机</p>
+</blockquote>
+<p>此前全国多个地区频繁出现陌生人扫码加群散布赌博和营销等非法广告，甚至还有存在对群成员实施诈骗等行为。</p>
+<p>腾讯公司则表示在出现微信群加群码泄露后，该公司配合多地公安机关抓获兜售加群码和利用加群码的犯罪团伙。</p>
+<p>公安部门经过侦查发现清粉类软件存在猫腻，在经过多次实验后南通公安锁定名为「微清」的软件具有重大嫌疑。</p>
+<p>其开发商精心制作极速清粉的广告图号称官方认证，一旦有人点击扫描登录检测其服务器就会获取用户微信信息。</p>
+<p>在向用户微信好友群发带有推广链接的信息同时，还会将用户的所有微信群二维码保存到服务器然后进行出售等。</p>
+<p>这些加群码多数都被出售给各类赌博和非法营销的犯罪团伙，这些犯罪团伙加群后自动发广告吸引更多的受害者。</p>
+<blockquote>
+<p>抓获多名犯罪嫌疑人</p>
+</blockquote>
+<p>尽管犯罪嫌疑人使用非实名信息注册以逃避公安机关的打击，但专案组梳理线索后从已停用的服务器上发现痕迹。</p>
+<p>最终专案组锁定团伙成员刘某和何某等人的真实身份，随后专案组在其他地区公安机关的配合下抓获犯罪嫌疑人。</p>
+<p>经查该犯罪团伙分工明确，由张某、刘某和何某负责系统开发与维护，李某负责出售二维码获利、谭某负责引流。</p>
+<p>据交代所谓的官方认证和放心访问只是为降低使用者的警惕心理，该犯罪团伙并没有获得官方授权而是自行操作。</p>
+<p>包括开发专用的系统和搭建服务器环境，在骗取用户授权登录后再通过这类外挂系统批量获取用户微信群二维码。</p>
+<p>同时犯罪嫌疑人开发的软件还能为营销公司提供批量关注、刷阅读量以及刷点赞量等，犯罪团伙靠多种方式获利。</p>
+<p>例如在短短三个月里该软件非法获取微信二维码 2000 万个，随后将其出售给福建龙岩等地的诈骗赌博犯罪团伙。</p>
+<blockquote>
+<p>公安机关提醒不要使用此类清粉软件</p>
+</blockquote>
+<p>腾讯公司此前已经多次发布打击此类清粉软件，同时腾讯公司还在微信后端服务器上进行限制阻止网页微信登录。</p>
+<p>但这仍无法彻底解决网上出现的各种清粉软件，以蓝点网为例，蓝点网几乎每天都能收到微信好友发的清粉通知。</p>
+<p>然而一旦登录这类所谓的清粉软件就有可能导致微信账号被他人接管，进而导致微信用户的个人信息遭到泄露等。</p>
+<p>公安机关提醒广大网友不要使用这类具有外挂功能的插件或软件，避免自己的个人信息被泄露造成潜在安全问题。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Tsingtoo WARNING（2021/03/08）]]></title>
         <id>https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210308/</id>
         <link href="https://songyon.github.io/Tsingtoo/post/tsingtoo-warning20210308/">
         </link>
         <updated>2021-03-08T00:42:39.000Z</updated>
-        <summary type="html"><![CDATA[<p>我们发现有外卖/快递工作者将于最近几天举行集体罢工（最近几天是<strong>两会期间</strong>）。<br>
-我们支持劳工斗争争取自己的合法权益，但也请注意自己的人身财产安全。</p>
+        <summary type="html"><![CDATA[<p>我们发现有外卖/快递工作者将于最近几天举行集体罢工（最近几天是<strong>两会期间</strong>）。</p>
+<p>我们支持劳工斗争争取自己的合法权益，但也请注意自己的人身财产安全。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>我们发现有外卖/快递工作者将于最近几天举行集体罢工（最近几天是<strong>两会期间</strong>）。<br>
-我们支持劳工斗争争取自己的合法权益，但也请注意自己的人身财产安全。</p>
+        <content type="html"><![CDATA[<p>我们发现有外卖/快递工作者将于最近几天举行集体罢工（最近几天是<strong>两会期间</strong>）。</p>
+<p>我们支持劳工斗争争取自己的合法权益，但也请注意自己的人身财产安全。</p>
 <!-- more -->
+<p>内容和图片不便展示，请谅解。</p>
 ]]></content>
     </entry>
     <entry>
